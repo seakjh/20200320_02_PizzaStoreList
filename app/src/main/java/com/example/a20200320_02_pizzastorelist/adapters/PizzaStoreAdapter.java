@@ -34,5 +34,6 @@ public class PizzaStoreAdapter extends ArrayAdapter<PizzaStore> {
         if (row == null) {
             row = inf.inflate(R.layout.pizza_store_list_item, null);
         }
+        return row;
     }
 }
